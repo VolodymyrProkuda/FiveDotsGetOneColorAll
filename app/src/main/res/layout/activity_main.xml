@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewDots5"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        app:layout_constraintStart_toEndOf="@+id/imageViewDots4"
+        app:layout_constraintTop_toTopOf="@+id/imageViewDots4"
+        app:srcCompat="@drawable/five_color_dots_red" />
+
+    <ImageView
+        android:id="@+id/imageViewDots2"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        app:layout_constraintStart_toEndOf="@+id/imageViewDots1"
+        app:layout_constraintTop_toTopOf="@+id/imageViewDots1"
+        app:srcCompat="@drawable/five_color_dots_blue" />
+
+    <ImageView
+        android:id="@+id/imageViewDots3"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        app:layout_constraintStart_toEndOf="@+id/imageViewDots2"
+        app:layout_constraintTop_toTopOf="@+id/imageViewDots2"
+        app:srcCompat="@drawable/five_color_dots_blue" />
+
+    <ImageView
+        android:id="@+id/imageViewDots4"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        app:layout_constraintStart_toEndOf="@+id/imageViewDots3"
+        app:layout_constraintTop_toTopOf="@+id/imageViewDots3"
+        app:srcCompat="@drawable/five_color_dots_red" />
+
+    <TextView
+        android:id="@+id/textViewRulesDots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Tap to dots and change \n colors beside square \n to get all color as need:"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewMainColorNeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/five_color_dots_blue" />
+
+    <ImageView
+        android:id="@+id/imageViewDots1"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="400dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/five_color_dots_red" />
+</androidx.constraintlayout.widget.ConstraintLayout>
